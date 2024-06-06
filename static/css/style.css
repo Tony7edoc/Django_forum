@@ -1,0 +1,92 @@
+html,body{
+    height: 100%;
+}
+body{
+    background-color: rgba(238, 242, 243, 0.97);
+    font-family: ‘Franklin Gothic Medium’, ‘Arial Narrow’, Arial, sans-serif;
+}
+.content{
+    max-width: 750px;
+    height: 100%;
+    margin:0 auto;
+    border-left: 1px solid grey;
+    border-right:1px solid grey;
+}
+.posts li{
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 17px;
+}
+.posts li .logo{
+    flex-basis: 15%;
+}
+.posts li .name_body{
+    flex-basis: 85%;
+}
+/*
+posts
+***************************/
+.post_forum{
+    padding:20px 40px;
+    border-bottom:1px solid #ccc;
+    text-align: center;
+}
+.post_forum input {
+    width: 70%;
+    margin-bottom:10px;
+    padding:20px;
+    border: 1px solid #ccc;
+    margin-left: 40%;
+}
+.post_forum textarea{
+    width:70%;
+    padding: 10px;
+}
+.posts ul{
+    padding: 0;
+}
+.posts li .logo img{
+    width:60%;
+}
+.posts li .name{
+    font-weight: bold;
+}
+.posts li .datetime{
+    color: gray;
+}
+.posts li .menu_icon{
+    width:20px;
+    position: absolute;
+    right:30px;
+    top: 18px;
+}
+.posts li .menu{
+    display: none  ;
+    position: absolute;
+    top:40px;
+    right:15px;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 3px;
+}
+.posts li .menu a{
+    text-decoration: none;
+}
+textarea {
+    margin-left: 7%;
+    margin-top: 4px;
+    width: 27%;
+}
+input[type="text"] {
+    margin-top: 10px;
+    margin-left: 7%;
+    width: 27%;
+}
+input[type="submit"] {
+    margin-left: 7%;
+    width: 28%;
+    padding: 5px;
+}
